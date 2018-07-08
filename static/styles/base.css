@@ -404,14 +404,14 @@ a:hover {
     color: #fff;
 }
 .search-container strong {
-    color: pink;
+    color: #BDBDBD;
     font-weight: normal;
 }
 .search-container ul {
     font-size: 1.083em;
     position: absolute;
     width: 100%;
-    background-color: #456e82;
+    background-color: #292929;
     border: 1px solid #1f292e;
     border-radius: 0 0 2px 2px;
     opacity: 0.9;
@@ -427,7 +427,7 @@ a:hover {
 }
 .search-container ul li:hover,
 .search-container ul li.highlight{
-    background-color: #fff;
+    background-color: #F5F5F5;
 }
 .search-container ul li:hover a,
 .search-container ul li.highlight a {
@@ -436,7 +436,7 @@ a:hover {
 }
 .search-container ul li:hover strong,
 .search-container ul li.highlight strong {
-    color: #ff4141;
+    color: #A4A4A4;
 }
 .search-container ul li .group {
     font-size: 0.916em;
