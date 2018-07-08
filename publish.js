@@ -145,8 +145,8 @@ function buildAttribsString(attribs) {
 
     if (attribs && attribs.length) {
         attribsString = util.format(
-            '<span class="icon green">%s</span> ',
-            attribs.join('</span>, <span class="icon green">')
+            '<span class="icon black">%s</span> ',
+            attribs.join('</span>, <span class="icon black">')
         );
     }
 
