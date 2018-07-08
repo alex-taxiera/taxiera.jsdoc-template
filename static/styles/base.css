@@ -304,11 +304,13 @@ a:hover {
 /* README*/
 .readme {
     font-size: 1.16em;
+    color: #F5F5F5
 }
 .readme p,
 .readme ul,
 .readme ol {
     padding: 3px 0 3px 5px;
+    font-size: 0.85em;
 }
 .readme li {
     list-style: initial;
@@ -318,9 +320,9 @@ a:hover {
 }
 .readme h1 {
     font-size: 2em;
-    font-weight: normal;
+    font-style: italic;
     padding: 10px 0 5px 0;
-    border-bottom: 1px solid #428bca;
+    border-bottom: 5px solid;
 }
 .readme pre {
     margin: 15px 3px;
@@ -330,7 +332,10 @@ a:hover {
     color: #333;
 }
 .readme p a {
-    color:#c7254e;
+  color:#A4A4A4;
+}
+.readme p a:hover {
+  color: #BDBDBD;
 }
 .readme h2 {
     padding-bottom: 3px;
