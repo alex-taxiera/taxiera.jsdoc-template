@@ -10,10 +10,10 @@ var self = this;
                 <?js= name ?>
             <?js } else { ?>
                 <?js= (data.kind === 'class' ? 'new ' : '') + data.attribs + name + (data.signature ? data.signature : '') ?>
-            <?js } ?>    
+            <?js } ?>
             <?js if (data.meta && self.outputSourceFiles) {?>
             <div class="container-source members">
-                <code><?js= self.linkto(meta.shortpath) ?></code>,
+                <code><?js= self.linkto(meta.shortpath) ?></code>
                 <code><?js= self.linkto(meta.shortpath, 'line ' + meta.lineno, null, 'line' + meta.lineno) ?></code>
             </div>
             <?js } ?>
