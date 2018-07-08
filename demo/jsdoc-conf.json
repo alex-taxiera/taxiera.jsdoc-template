@@ -5,11 +5,8 @@
       "hardwrap": true
   },
   "templates": {
-      "name": "Doc Template",
-      "footerText": "NHN Entertainment Frontend Development Lab",
-      "logo": {
-        "link": "https://github.com/nhnent/tui.jsdoc-template"
-      }
+      "name": "eris-boiler",
+      "github": "https://github.com/alex-taxiera/jsdoc-theme"
   },
   "opts": {
     "encoding": "utf8",
