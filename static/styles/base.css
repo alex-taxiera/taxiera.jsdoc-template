@@ -306,6 +306,14 @@ a:hover {
     font-size: 1.16em;
     color: #F5F5F5
 }
+.readme h1,
+.readme h2,
+.readme h3,
+.readme h4,
+.readme h5,
+.readme h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .readme p,
 .readme ul,
 .readme ol {
